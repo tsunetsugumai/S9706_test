@@ -18,6 +18,7 @@ void setup() {
   Serial.begin(9600);
   colorSensor.begin();
   Serial.println(dataPin[0]);
+  
 }
 
 void loop() {
